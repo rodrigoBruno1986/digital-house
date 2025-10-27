@@ -31,6 +31,14 @@ npm run dev
 
 Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
+## 👤 Usuario Administrador
+
+Para acceder al panel de administración, utiliza las siguientes credenciales:
+
+- **Nombre:** admin
+- **Email:** admin@hotmail.com
+- **Contraseña:** admin123
+
 ## 📚 Storybook
 
 El proyecto incluye Storybook para visualizar los componentes:

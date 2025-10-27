@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 Sistema de Inscripción a Cursos
 
-## Getting Started
+Una aplicación web moderna para la gestión de cursos e inscripciones.
 
-First, run the development server:
+## 🚀 Instalación
+
+### 1. Clonar el repositorio
+
+```bash
+git clone <tu-repositorio>
+cd curso-inscripcion
+```
+
+### 2. Instalar dependencias
+
+```bash
+npm install
+```
+
+### 3. Configurar variables de entorno
+
+Las credenciales de Supabase y NextAuth están disponibles en el email privado.
+
+Crea un archivo `.env.local` con las variables necesarias.
+
+### 4. Ejecutar la aplicación
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📚 Storybook
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+El proyecto incluye Storybook para visualizar los componentes:
 
-## Learn More
+```bash
+npm run storybook
+```
 
-To learn more about Next.js, take a look at the following resources:
+Abre [http://localhost:6006](http://localhost:6006) para ver los componentes. Son dos a modo de ejemplo 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔧 Scripts disponibles
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run dev              # Servidor de desarrollo
+npm run build            # Build de producción
+npm run start            # Servidor de producción
+npm test                 # Tests
+npm run storybook        # Storybook (puerto 6006)
+npm run build-storybook  # Build de Storybook
+```
 
-## Deploy on Vercel
+## 🛠️ Tecnologías utilizadas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js 16** - Framework de React
+- **TypeScript** - Tipado estático
+- **Tailwind CSS** - Estilos
+- **Supabase** - Base de datos
+- **NextAuth.js** - Autenticación
+- **React Query** - Gestión de estado
+- **Zustand** - Estado global
